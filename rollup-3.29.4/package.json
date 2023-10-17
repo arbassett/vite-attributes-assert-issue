@@ -1,0 +1,20 @@
+{
+  "name": "rollup-3.29.4",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "^6.0.1",
+    "@rollup/plugin-node-resolve": "15.2.3",
+    "rollup": "3.29.4",
+    "test-import-assertion-dep": "file:../base-code/test-import-assertion-dep"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "vite-attributes-assert-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "pnpm -r --sequential --no-bail build"
+  },
+  "dependencies": {
+    "test-import-assertion-dep": "file:./base-code/test-import-assertion-dep",
+    "test-import-attributes-dep": "file:./base-code/test-import-attributes-dep"
+  }
+}

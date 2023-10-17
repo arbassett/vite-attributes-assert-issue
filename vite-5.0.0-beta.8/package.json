@@ -1,0 +1,18 @@
+{
+  "name": "vite-5.0.0-beta.8",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vite": "5.0.0-beta.8",
+    "test-import-assertion-dep": "file:../base-code/test-import-assertion-dep"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
