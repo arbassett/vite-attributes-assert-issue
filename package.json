@@ -12,5 +12,8 @@
   "dependencies": {
     "test-import-assertion-dep": "file:./base-code/test-import-assertion-dep",
     "test-import-attributes-dep": "file:./base-code/test-import-attributes-dep"
+  },
+  "stackblitz": {
+    "startCommand": "pnpm build"
   }
 }
