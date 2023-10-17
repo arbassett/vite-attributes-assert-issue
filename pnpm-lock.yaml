@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 importers:
 
   .:
@@ -52,6 +56,15 @@ importers:
       vite:
         specifier: 4.4.11
         version: 4.4.11
+
+  vite-5.0.0-beta.10:
+    dependencies:
+      test-import-attributes-dep:
+        specifier: file:../base-code/test-import-attributes-dep
+        version: file:base-code/test-import-attributes-dep
+      vite:
+        specifier: 5.0.0-beta.10
+        version: 5.0.0-beta.10
 
   vite-5.0.0-beta.8:
     dependencies:
@@ -870,6 +883,41 @@ packages:
       fsevents: 2.3.3
     dev: false
 
+  /vite@5.0.0-beta.10:
+    resolution: {integrity: sha512-8aqMPLJnbQf8IFG+o/EMihZ+1RtTD6VoP2OJgUZfmaylR+hNyO0DBhWliWmrHXjOarDDuT1kJjowwS+XRWZ+EQ==}
+    engines: {node: ^18.0.0 || >=20.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': ^18.0.0 || >=20.0.0
+      less: '*'
+      lightningcss: ^1.21.0
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      esbuild: 0.19.5
+      postcss: 8.4.31
+      rollup: 4.1.4
+    optionalDependencies:
+      fsevents: 2.3.3
+    dev: false
+
   /vite@5.0.0-beta.8:
     resolution: {integrity: sha512-jmWSaTTz81ETy74qlwMFhGSmYeZ/RFQlnbqfFxH9FmP+4clw59RCopPX99ETTja1NOylEMWlm5KsRmshsRFjOQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
@@ -908,11 +956,9 @@ packages:
   file:base-code/test-import-assertion-dep:
     resolution: {directory: base-code/test-import-assertion-dep, type: directory}
     name: test-import-assertion-dep
-    version: 0.0.0
     dev: false
 
   file:base-code/test-import-attributes-dep:
     resolution: {directory: base-code/test-import-attributes-dep, type: directory}
     name: test-import-assertion-dep
-    version: 0.0.0
     dev: false

@@ -1,5 +1,6 @@
 packages:
   - vite-4.11.4
   - vite-5.0.0-beta.8
+  - vite-5.0.0-beta.10
   - rollup-3.29.4
   - rollup-4.1.4
